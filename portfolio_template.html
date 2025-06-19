@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PYX Engenharia e Consultoria - Portfólio</title>
+    <meta name="description" content="Portfólio de projetos da PYX Engenharia e Consultoria. Excelência em engenharia aeronáutica e mecânica desde 1999.">
+    <meta property="og:title" content="PYX Engenharia e Consultoria - Portfólio">
+    <meta property="og:description" content="Portfólio de projetos da PYX Engenharia e Consultoria. Excelência em engenharia aeronáutica e mecânica desde 1999.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ portfolio.featured_image or '' }}">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PYX Engenharia e Consultoria</h1>
+        <p>Excelência em Engenharia Aeronáutica e Mecânica</p>
+    </header>
+    <main>
+        <section id="portfolio">
+            <h2>Portfólio de Projetos</h2>
+            <div class="portfolio-list">
+                {% for categoria, projetos in portfolio.items() %}
+                    <h3>{{ categoria|capitalize }}</h3>
+                    <div class="projects">
+                        {% for item in projetos %}
+                            {% set itens = item.empresas if item.empresas is defined else item.itens if item.itens is defined else [] %}
+                            {% for projeto in itens %}
+                                <article class="project-card">
+                                    <h4>{{ projeto.nome or projeto.descricao }}</h4>
+                                    <p>{{ projeto.localizacao or projeto.empresa }}</p>
+                                    <p>{{ projeto.periodo or projeto.data }}</p>
+                                    <img src="{{ projeto.imagem or 'default.jpg' }}" alt="{{ projeto.nome or projeto.descricao }}" loading="lazy">
+                                    <div class="tags">
+                                        <span>{{ projeto.tipo or 'Projeto' }}</span>
+                                        <span>{{ projeto.cargo or 'Serviço Técnico' }}</span>
+                                    </div>
+                                </article>
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; {{ "now"|date("%Y") }} PYX Engenharia e Consultoria</p>
+    </footer>
+</body>
+</html> 
