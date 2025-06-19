@@ -286,8 +286,6 @@ MIT License
 
 ## 🌐 Static Pages Repository
 
-> 🗂️ **All static site files (HTML, CSS, images, JSON) are maintained in the [pyx-engenharia-portfolio](../pyx-engenharia-portfolio) repository**
->
 > - 📄 Only static files are versioned there
 > - 🔗 Always reference the toolbox for scripts and automations
 > - 📚 See this README for usage examples and integration 
