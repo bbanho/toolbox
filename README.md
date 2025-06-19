@@ -1,6 +1,15 @@
-# PYX Engineering Toolbox
+# Development Toolbox
 
-Centralized scripts, utilities, and automations for static web projects and DevOps.
+> A collection of scripts, utilities, and automations for static web projects and DevOps.
+
+## 📑 Documentation Index
+
+- [Changelog](CHANGELOG.md) - History of changes and versions
+- [Contributing Guidelines](CONTRIBUTING.md) - How to contribute to this project
+- [Docker Setup](DOCKER.md) - Docker configuration and usage
+- [License](LICENSE) - Project license and terms
+
+---
 
 ## 📑 Project Guidelines
 
@@ -145,9 +154,16 @@ MIT License
 
 ---
 
-# Toolbox PYX Engenharia (Português)
+# Central de Desenvolvimento (Português)
 
-Central de scripts, utilitários e automações para projetos web estáticos e DevOps.
+> Central de scripts, utilitários e automações para projetos web estáticos e DevOps.
+
+## 📑 Índice da Documentação
+
+- [Registro de Mudanças](CHANGELOG.md) - Histórico de alterações e versões
+- [Guia de Contribuição](CONTRIBUTING.md) - Como contribuir com o projeto
+- [Configuração Docker](DOCKER.md) - Configuração e uso do Docker
+- [Licença](LICENSE) - Licença e termos do projeto
 
 ## 📚 Funcionalidades
 
