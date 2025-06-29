@@ -1,0 +1,42 @@
+### Diretivas de Operação e Memória Procedural (NoteTree Project)
+
+Este arquivo serve como um bootstrap de contexto para as minhas rotinas operacionais e conhecimento do ambiente.
+
+---
+
+#### 1. Diretivas Principais (#lembrar)
+
+- **Foco em Documentação:** Manter a documentação do projeto (MD, TXT, PDF, etc.) sempre atualizada após avanços significativos.
+- **Sistema de Tags:**
+  - `#lembrar`: Para diretivas críticas e de longo prazo.
+  - `#N` (N=inteiro): Para rotinas procedurais indexadas e revogáveis.
+- **Memória Contextual:** Reforçar e buscar memórias por conceito e contexto para manter a continuidade.
+- **Gerenciamento de Tarefas:** Apagar notas de tarefas pendentes (ex: "lembrar de atualizar doc") assim que forem concluídas.
+
+---
+
+#### 2. Rotinas Ativas (Memória Procedural)
+
+- **Rotina #0 (Reatribuída a cada sessão):**
+  - **Gatilho:** Avanço significativo (>= 200 caracteres de código ou mudança estrutural).
+  - **Ação:** Atualizar toda a documentação relevante do projeto.
+
+- **Rotina #1 (Permanente até revogação):**
+  - **Gatilho:** Apresentação de um comando de terminal ou texto específico para ser copiado.
+  - **Ação:** Salvar o conteúdo automaticamente no clipboard do usuário.
+
+---
+
+#### 3. Dependências do Ambiente do Usuário
+
+- **Clipboard:**
+  - `wl-copy` (primário, Wayland)
+  - `wl-paste`
+  - `xclip` (fallback, X11)
+- **Containerização:**
+  - `docker`
+  - `docker compose` (sintaxe V2, sem hífen)
+- **Controle de Versão:**
+  - `git`
+  - `gh` (GitHub CLI)
+- **Shell:** Ambiente Linux padrão (bash, curl, mkdir, mv, echo, etc.).
