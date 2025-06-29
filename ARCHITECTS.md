@@ -1,7 +1,3 @@
-# Documento Estratégico para Arquitetos
-
-> **Confidencial**: Este documento é destinado apenas a arquitetos e tomadores de decisão.
-
 ## 🎯 Visão Geral do Processo
 
 ### Evolução da Arquitetura
@@ -14,7 +10,6 @@
 2. **Decisões Arquiteturais**
    - ✅ Não usar CHANGELOG para conteúdo estático
    - ✅ Mover instruções para fora dos repositórios
-   - ✅ Documentação bilíngue mas priorização do inglês
    - ✅ Restrição de acesso por nível técnico
 
 ### Problemas Identificados e Soluções
@@ -42,8 +37,8 @@
 - Análise de código e documentação
 - Geração de templates
 
-### Fase 2: IA como Ferramenta de Treinamento (Planejado)
-- Geração de material didático
+### Fase 2: IA como Ferramenta de Treinamento (Planejado) // interpŕetou errado, mas vou deixar
+- Geração de material
 - Simulações de problemas comuns
 - Tutoriais interativos
 - Avaliação de código em tempo real
@@ -92,24 +87,6 @@
 3. **Fase Avançada**
    - Arquitetura de automação
    - Design de sistemas escaláveis
-   - Implementação de IA em processos
-
-## 🔄 Ciclo de Evolução
-
-### Curto Prazo (3-6 meses)
-- Finalizar migração de formatos de imagem
-- Implementar sistema de templates
-- Estabelecer métricas de performance
-
-### Médio Prazo (6-12 meses)
-- Integrar IA no processo de desenvolvimento
-- Desenvolver materiais de treinamento
-- Implementar análise automática de qualidade
-
-### Longo Prazo (12+ meses)
-- IA como arquiteta assistente
-- Sistema de automação inteligente
-- Plataforma de treinamento automatizada
 
 ## 🔐 Considerações de Segurança
 
@@ -148,3 +125,5 @@
 ---
 
 > **Nota**: Este documento deve ser atualizado conforme novas decisões arquiteturais são tomadas e novos aprendizados são obtidos. 
+
+deve ser isso, parece q ela copiou esse formatinho de da api do gpt
